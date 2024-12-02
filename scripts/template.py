@@ -24,5 +24,5 @@ if __name__ == "__main__":
         sys.exit(1)
 
     file = open("input").read()
-    part1(file)
-    part2(file)
+    print("part1:", part1(file))
+    print("part2:", part2(file))
