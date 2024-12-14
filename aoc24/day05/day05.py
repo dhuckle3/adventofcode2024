@@ -57,7 +57,7 @@ if __name__ == "__main__":
         print("exiting...")
         sys.exit(1)
 
-    file = open("input").read()
+    file = open("data/day05/input").read()
     [rule_list, updates_list] = file.split("\n\n")
 
     rules = defaultdict(list)

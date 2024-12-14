@@ -130,6 +130,6 @@ if __name__ == "__main__":
         print("exiting...")
         sys.exit(1)
 
-    file = open("input").readlines()
+    file = open("data/day04/input").readlines()
     print("part1:", part1(file))
     print("part2:", part2(file))

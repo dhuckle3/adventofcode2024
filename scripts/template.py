@@ -23,6 +23,6 @@ if __name__ == "__main__":
         print("exiting...")
         sys.exit(1)
 
-    file = open("input").read()
+    file = open("data/day00/input").read()
     print("part1:", part1(file))
     print("part2:", part2(file))

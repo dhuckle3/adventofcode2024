@@ -8,4 +8,5 @@ if len(sys.argv) != 2:
 
 name = sys.argv[1]
 os.makedirs(f"aoc24/{name}")
+os.makedirs(f"data/{name}")
 shutil.copy("scripts/template.py", f"aoc24/{name}/{name}.py")
